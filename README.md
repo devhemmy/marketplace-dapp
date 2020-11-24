@@ -1,6 +1,67 @@
-# Udacity Blockchain Capstone
+# Real-Estate-Marketplace
 
-The capstone will build upon the knowledge you have gained in the course in order to build a decentralized housing product.
+Blockchain capstone project of Udacity is Ethereum DApp to build a decentralized housing product.
+
+### Install dependencies
+
+```
+$  npm install
+```
+
+## Compile
+
+- cd into eth-contracts and run
+
+```
+$ truffle compile
+```
+
+## Test
+
+- cd into eth-contracts and run
+
+```
+$ truffle Test
+```
+
+## Deploy Contract to Rinkeby:
+
+- cd into eth-contracts and run
+
+```
+$ truffle migrate --reset --network rinkeby
+```
+
+### Verifier Smart contract
+
+Contract Address: 0xd1c535217BE2054624943dA842E046773E64D327
+
+### SolnSquareVerifier Smart contract
+
+Contract Address: 0x6202AAc2ebf803CC7017bECE051585a09fCbe93D
+
+### OpenSea marketplace
+
+- exp: asset
+  https://rinkeby.opensea.io/assets/0x6202AAc2ebf803CC7017bECE051585a09fCbe93D/1
+
+- items
+  https://testnets.opensea.io/assets/hemmy-token
+
+## Built With
+
+- [Ethereum](https://www.ethereum.org/) - Ethereum is a decentralized platform that runs smart contracts
+- [IPFS](https://ipfs.io/) - IPFS is the Distributed Web | A peer-to-peer hypermedia protocol
+  to make the web faster, safer, and more open.
+- [Truffle Framework](http://truffleframework.com/) - Truffle is the most popular development framework for Ethereum with a mission to make your life a whole lot easier.
+
+## Authors
+
+- **Tom Ge** - _Front end Engineer_ - [github profile](https://github.com/devhemmy)
+
+## License
+
+This project is licensed under the MIT License
 
 # Project Resources
 
@@ -12,10 +73,6 @@ The capstone will build upon the knowledge you have gained in the course in orde
 - [Interactive zero knowledge 3-colorability demonstration](http://web.mit.edu/~ezyang/Public/graph/svg.html)
 - [Docker](https://docs.docker.com/install/)
 - [ZoKrates](https://github.com/Zokrates/ZoKrates)
-
-Verifier Rinkeby Address : 0xd1c535217BE2054624943dA842E046773E64D327
-
-SolnSquareVerifier Rinkeby Address : 0x6202AAc2ebf803CC7017bECE051585a09fCbe93D
 
 SolnSquareVerifier ABI:
 
