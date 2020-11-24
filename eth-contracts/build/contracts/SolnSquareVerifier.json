@@ -7135,6 +7135,132 @@
     "version": "0.5.9+commit.e560f70d.Emscripten.clang"
   },
   "networks": {
+    "4": {
+      "events": {
+        "0x078793128cefb19aac38a33f9e5df39f67716907f6d747e8065545699e0b2b8d": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "index",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "solutionAddress",
+              "type": "address"
+            }
+          ],
+          "name": "SolutionAdded",
+          "type": "event"
+        },
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "from",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "to",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "tokenId",
+              "type": "uint256"
+            }
+          ],
+          "name": "Transfer",
+          "type": "event"
+        },
+        "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "approved",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "tokenId",
+              "type": "uint256"
+            }
+          ],
+          "name": "Approval",
+          "type": "event"
+        },
+        "0x17307eab39ab6107e8899845ad3d59bd9653f200f220920489ca2b5937696c31": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "operator",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "approved",
+              "type": "bool"
+            }
+          ],
+          "name": "ApprovalForAll",
+          "type": "event"
+        },
+        "0x62e78cea01bee320cd4e420270b5ea74000d11b0c9f74754ebdbfc544b05a258": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "caller",
+              "type": "address"
+            }
+          ],
+          "name": "Paused",
+          "type": "event"
+        },
+        "0x5db9ee0a495bf2e6ff9c91a7834c1ba4fdd244a5e8aa4e537bd38aeae4b073aa": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "caller",
+              "type": "address"
+            }
+          ],
+          "name": "Unpaused",
+          "type": "event"
+        },
+        "0x577f8f7e9a8e791ab0a1b55f6bd874d0cc98b9bc28b83a88fbd89fc887a9e560": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "newOwner",
+              "type": "address"
+            }
+          ],
+          "name": "newContractOwner",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0x6202AAc2ebf803CC7017bECE051585a09fCbe93D",
+      "transactionHash": "0xbe27605a59d57e6d2b5efaf006c61886d5f47e71dc887c36fa24c4e072b1b3b4"
+    },
     "5777": {
       "events": {
         "0x078793128cefb19aac38a33f9e5df39f67716907f6d747e8065545699e0b2b8d": {
@@ -7263,7 +7389,7 @@
     }
   },
   "schemaVersion": "3.3.1",
-  "updatedAt": "2020-11-24T14:37:57.322Z",
+  "updatedAt": "2020-11-24T14:50:24.630Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {
